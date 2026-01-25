@@ -1,5 +1,6 @@
-streamlit==1.5.0
+streamlit==1.24.1
 pandas
 plost
-plotly
 Pillow
+protobuf==3.20.3
+plotly
