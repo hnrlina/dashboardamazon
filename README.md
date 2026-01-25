@@ -20,7 +20,7 @@ streamlit run streamlit_app.py
 ```
 
 
-PYTHON LIBRARIES USED:
+PYTHON LIBRARIES USED
 
 
 	- Streamlit
