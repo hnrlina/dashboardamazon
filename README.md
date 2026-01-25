@@ -22,6 +22,8 @@ streamlit run streamlit_app.py
 
 
 PYTHON LIBRARIES USED:
+
+
 	- Streamlit
 	- Pandas
 	- Plotly Express
@@ -32,6 +34,7 @@ PYTHON LIBRARIES USED:
 
 
 FEATURES
+
 	- Filter by author, title, format, price, and year
 	- Display the most popular author
 	- Display the most popular book
@@ -44,5 +47,6 @@ FEATURES
 AUTHOR / CONTACT
 
 Author : Lina Honoré
+
 LinkedIn : www.linkedin.com/in/lina-honoré-961589383
 
