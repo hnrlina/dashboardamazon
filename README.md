@@ -12,10 +12,13 @@ PREVIEW:
 
 HOW TO RUN THIS DASHBOARD?
 
+HOW TO RUN THIS DASHBOARD?
+
 ```bash
-git clone https://github.com/ton-utilisateur/amazon-dashboard.git
+git clone https://github.com/hnrlina/amazon-dashboard.git
 pip install -r requirements.txt
 streamlit run streamlit_app.py
+```
 
 
 PYTHON LIBRARIES USED:
