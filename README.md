@@ -10,7 +10,6 @@ PREVIEW:
 ![Dashboard Preview](images/preview.png)
 
 
-HOW TO RUN THIS DASHBOARD?
 
 HOW TO RUN THIS DASHBOARD?
 
