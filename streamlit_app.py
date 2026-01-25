@@ -130,7 +130,6 @@ liste_annees = sorted(df_final['Année'].unique().tolist(), reverse=True)
 annee_choisie = st.sidebar.segmented_control(
     "Année",
     options=sorted(df_final["Année"].unique(), reverse=True),
-    default=st.session_state.annee,
     selection_mode="multi",
     key="annee"
 )
