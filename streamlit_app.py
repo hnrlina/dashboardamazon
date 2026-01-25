@@ -142,8 +142,6 @@ prix_choisi = st.sidebar.slider(
     "Plage de prix (€)",
     min_value=float(df_final["Prix"].min()),
     max_value=float(df_final["Prix"].max()),
-    value=st.session_state.prix,
-    step=0.1,
     key="prix"
 )
 df_affiche = df_final.copy()
