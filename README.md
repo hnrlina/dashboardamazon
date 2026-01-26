@@ -18,7 +18,9 @@ git clone https://github.com/hnrlina/amazon-dashboard.git
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
-
+YOU CAN ALSO USE THIS LINK 
+	 
+	 https://dashboardamazon-ty3m9qspj4ftuhwtfvxdkk.streamlit.app/
 
 PYTHON LIBRARIES USED
 
