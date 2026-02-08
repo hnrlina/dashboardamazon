@@ -257,8 +257,8 @@ if not df_auteur_top_15.empty:
         st.markdown('**Top 15 Auteurs**')
         plost.bar_chart(
             data=df_auteur_top_15,
-            bar='Auteur',
-            value='Total',
+            bar='Total',
+            value='Auteur',
             color='#D289C1',
             width='stretch',
             direction='horizontal'
