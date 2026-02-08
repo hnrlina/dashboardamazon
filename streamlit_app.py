@@ -255,7 +255,7 @@ df_auteur_top_15 = df_auteur_stats.sort_values(by='Total', ascending=False).head
 if not df_auteur_top_15.empty:
     with b2:
         st.markdown('**Top 15 Auteurs**')
-        fig_authors = px.bar(
+        bar_auteur = px.bar(
             df_auteur_top_15,
             x='Total',
             y='Auteur',
@@ -263,8 +263,8 @@ if not df_auteur_top_15.empty:
             color_discrete_sequence=['#D289C1']
         )
         #inverse axe Y
-        fig_authors.update_layout(yaxis={'categoryorder':'total ascending'}, margin=dict(l=0, r=0, t=0, b=0), height=400)
-        st.plotly_chart(fig_authors, use_container_width=True)
+        bar_auteur.update_layout(yaxis={'categoryorder':'total ascending'}, margin=dict(l=0, r=0, t=0, b=0), height=400)
+        st.plotly_chart(bar_auteur, use_container_width=True)
 else:
     with b2:
         st.markdown('**Top 15 Auteurs**')
