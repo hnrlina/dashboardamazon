@@ -165,7 +165,7 @@ df_affiche = df_affiche[
 ]
 
 st.write("Lina Honoré")
-st.header("**Amazon Top Ventes Dashboard Interactif (2022-2025)**")
+st.header("**Amazon Top Ventes Livres Dashboard Interactif (2022-2025)**")
 st.markdown("---")
 
 #MISE EN PLACE DE 3 COLONNES 
