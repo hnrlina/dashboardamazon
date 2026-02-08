@@ -255,14 +255,16 @@ df_auteur_top_15 = df_auteur_stats.sort_values(by='Total', ascending=False).head
 if not df_auteur_top_15.empty:
     with b2:
         st.markdown('**Top 15 Auteurs**')
-        plost.bar_chart(
-            data=df_auteur_top_15,
-            bar='Total',
-            value='Auteur',
-            color='#D289C1',
-            width='stretch',
-            direction='horizontal'
+        fig_authors = px.bar(
+            df_auteur_top_15,
+            x='Total',
+            y='Auteur',
+            orientation='h',
+            color_discrete_sequence=['#D289C1']
         )
+        #inverse axe Y
+        fig_authors.update_layout(yaxis={'categoryorder':'total ascending'}, margin=dict(l=0, r=0, t=0, b=0), height=400)
+        st.plotly_chart(fig_authors, use_container_width=True)
 else:
     with b2:
         st.markdown('**Top 15 Auteurs**')
